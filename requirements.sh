@@ -1,0 +1,1 @@
+curl -sL install-node.now.sh | sh
