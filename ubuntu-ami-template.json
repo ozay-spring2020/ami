@@ -1,9 +1,10 @@
 {
     "variables": {
-        "aws_access_key": "AKIA5FMTBT3ZSN3OSRG6",
-        "aws_secret_key": "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",
-        "aws_region": "us-east-1",
+        "aws_access_key": "",
+        "aws_secret_key": "",
+        "aws_region": "",
         "subnet_id": "",
+        "ami_users": "948482737964,904935874291",
         "source_ami": "ami-07ebfd5b3428b6f4d",
         "ssh_username":"ubuntu"
     },
