@@ -25,6 +25,8 @@ jobs:
           name: Build AMI
           command: |
             ./packer build \
+            -var "source_ami=${source_ami}"\
+            -var "ami_users=${ami_users}"\
             -var "aws_region=${AWS_REGION}" \
             -var "subnet_id=${AWS_SUBNET_ID}" \
             ubuntu-ami-template.json
