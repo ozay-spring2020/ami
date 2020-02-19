@@ -1,2 +1,1 @@
-# ami
-AMI
+# AMI
