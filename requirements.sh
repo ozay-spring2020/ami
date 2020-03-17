@@ -15,4 +15,4 @@ sudo ./install auto
 cd /home/ubuntu
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/ubuntu/amd64/latest/amazon-cloudwatch-agent.deb
 cd /home/ubuntu
-sudo rpm -U ./amazon-cloudwatch-agent.rpm
+sudo dpkg -i -E ./amazon-cloudwatch-agent.deb
